@@ -1,0 +1,12 @@
+.list-group{
+	.create-bar-component{
+		background: #0275d8;
+		color: #fff;
+		width: 200px;
+		&:hover{
+			// 把#0275d8的亮度降低20%
+			background: darken(#0275d8, 20%);
+			color: #fff
+		}
+	}
+}
